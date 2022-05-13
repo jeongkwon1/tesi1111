@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         supportActionBar!!.setDisplayShowHomeEnabled(true)
         supportActionBar!!.setIcon(R.drawable.pici_icon)
-        title = "명화 선호도 투표"
+        title = "명화 선호도 투표 깃허브"
 
         var voteCount = IntArray(9)
         for (i in 0..8)
